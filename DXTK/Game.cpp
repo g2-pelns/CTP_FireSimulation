@@ -32,8 +32,8 @@ void Game::Initialize(HWND window, int width, int height)
 
 	///------ TO CHANGE CUBE PLEASE ALTER THE C_WIDTH & C_HEIGHT VALUES ----//
 	
-	int C_WIDTH = 25;
-	int C_HEIGHT = 25;
+	int C_WIDTH = 50;
+	int C_HEIGHT = 50;
 
 	///------ P.S. Recommend below 200k cubes max!!! ----//
 
