@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>6465891f-3c73-45eb-8f74-10d660966fa6</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{014ec3ac-faef-4f2b-9599-a9e26712175c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Headers">
+      <UniqueIdentifier>{ca3753a7-9285-4f81-8956-f5bd52040c93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Sources">
+      <UniqueIdentifier>{fb4b50f0-35b7-410c-b9c2-07d9d84c2919}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="StepTimer.h" />
+    <ClInclude Include="GameObject.h">
+      <Filter>Classes\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData.h">
+      <Filter>Classes\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Classes\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VortexCube.h">
+      <Filter>Classes\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Classes\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Burnable.h">
+      <Filter>Classes\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Classes\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Classes\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="VortexCube.cpp">
+      <Filter>Classes\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Classes\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Burnable.cpp">
+      <Filter>Classes\Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

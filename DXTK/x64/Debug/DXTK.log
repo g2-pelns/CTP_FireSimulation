@@ -1,0 +1,6 @@
+﻿  Game.cpp
+  c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Camera.cpp
+  c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     Creating library D:\CTPMEBELEE\CTP_FireSimulation\DXTK-FireSimulation\x64\Debug\DXTK.lib and object D:\CTPMEBELEE\CTP_FireSimulation\DXTK-FireSimulation\x64\Debug\DXTK.exp
+  DXTK.vcxproj -> D:\CTPMEBELEE\CTP_FireSimulation\DXTK-FireSimulation\x64\Debug\DXTK.exe
